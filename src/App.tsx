@@ -1,10 +1,7 @@
-import { Button } from "./components/ui/button";
+import { RouterProvider } from "react-router-dom";
+
+import { router } from "./routes";
 
 export function App() {
-  return (
-    <div>
-      <h1 className="text-blue-500 text-3xl">React</h1>
-      <Button variant="destructive">Click me</Button>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
