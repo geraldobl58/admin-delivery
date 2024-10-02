@@ -17,7 +17,7 @@ export function Header() {
             <Home className="size-4" />
             Dashboard
           </NavLink>
-          <NavLink to="/pedidos">
+          <NavLink to="/orders">
             <Utensils className="size-4" />
             Pedidos
           </NavLink>
